@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
@@ -7,7 +8,7 @@ import { countAtom, evenSelector } from "./store/atoms/count";
 import { RecoilRoot } from "recoil";
 
 function App() {
-  
+
   return (
     <RecoilRoot>
       <Count />
